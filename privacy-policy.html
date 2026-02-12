@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Split PDF</title>
+    <style>
+        :root {
+            --primary: #7C3AED;
+            --bg: #FAFAFA;
+            --card: #FFFFFF;
+            --text: #1E1E2E;
+            --muted: #6B7280;
+            --border: #E5E7EB;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .header {
+            background: linear-gradient(135deg, #7C3AED, #5B21B6);
+            color: white;
+            padding: 3rem 1.5rem 2rem;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8rem; font-weight: 700; }
+        .header p { margin-top: 0.5rem; opacity: 0.85; font-size: 0.95rem; }
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.2rem;
+        }
+        .lang-btn {
+            padding: 0.4rem 1.2rem;
+            border-radius: 999px;
+            border: 2px solid rgba(255,255,255,0.4);
+            background: transparent;
+            color: white;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .lang-btn.active {
+            background: white;
+            color: var(--primary);
+            border-color: white;
+        }
+        .container {
+            max-width: 720px;
+            margin: -1rem auto 3rem;
+            padding: 0 1.2rem;
+        }
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+        }
+        .section { margin-bottom: 1.8rem; }
+        .section:last-child { margin-bottom: 0; }
+        .section h2 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.6rem;
+        }
+        .section p, .section li {
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding-left: 1.4rem;
+            position: relative;
+            margin-bottom: 0.35rem;
+        }
+        .section ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.55rem;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--primary);
+        }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .date {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-top: 1.5rem;
+        }
+        .content { display: none; }
+        .content.active { display: block; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Privacy Policy</h1>
+    <p>Split PDF &mdash; Split &amp; Merge</p>
+    <div class="lang-switch">
+        <button class="lang-btn active" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" onclick="switchLang('it')">Italiano</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+
+        <!-- ENGLISH -->
+        <div id="en" class="content active">
+            <div class="section">
+                <h2>Introduction</h2>
+                <p>Sardinia Labs ("we", "our", "us") built the Split PDF app as a free, ad-supported application. This page informs you of our policies regarding the collection, use, and disclosure of information when you use our app.</p>
+            </div>
+
+            <div class="section">
+                <h2>Information We Collect</h2>
+                <p>Split PDF does <strong>not</strong> collect, store, or transmit any personal data. All PDF processing (splitting and merging) is performed entirely on your device. Your files never leave your phone.</p>
+            </div>
+
+            <div class="section">
+                <h2>Third-Party Services</h2>
+                <p>The app uses the following third-party services, which may collect information as described in their respective privacy policies:</p>
+                <ul>
+                    <li><strong>Google AdMob</strong> &mdash; used to display advertisements. AdMob may collect device identifiers and usage data to serve personalized or non-personalized ads. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+                    <li><strong>Google Play In-App Updates</strong> &mdash; used to check for and deliver app updates. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+                    <li><strong>Google Play In-App Review</strong> &mdash; used to prompt users to rate the app. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>File Access</h2>
+                <p>The app requests access to your device storage solely to read PDF files you select and to save the resulting split or merged files. We do not access, read, or upload any other files on your device.</p>
+            </div>
+
+            <div class="section">
+                <h2>Data Security</h2>
+                <p>Since all processing happens locally on your device and no personal data is collected or transmitted, there is no risk of data breach from our side. We recommend keeping your device software up to date for optimal security.</p>
+            </div>
+
+            <div class="section">
+                <h2>Children's Privacy</h2>
+                <p>Our app does not knowingly collect personal information from children under 13. Since we do not collect any personal data, no special provisions are required.</p>
+            </div>
+
+            <div class="section">
+                <h2>Changes to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this page periodically.</p>
+            </div>
+
+            <div class="section">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact us at:<br>
+                <a href="mailto:sardinialabs.dev@gmail.com">sardinialabs.dev@gmail.com</a></p>
+            </div>
+        </div>
+
+        <!-- ITALIANO -->
+        <div id="it" class="content">
+            <div class="section">
+                <h2>Introduzione</h2>
+                <p>Sardinia Labs ("noi", "nostro") ha sviluppato l'app Split PDF come applicazione gratuita supportata da pubblicità. Questa pagina illustra le nostre politiche relative alla raccolta, all'uso e alla divulgazione delle informazioni quando si utilizza la nostra app.</p>
+            </div>
+
+            <div class="section">
+                <h2>Informazioni che raccogliamo</h2>
+                <p>Split PDF <strong>non</strong> raccoglie, memorizza o trasmette alcun dato personale. Tutta l'elaborazione dei PDF (divisione e unione) avviene interamente sul tuo dispositivo. I tuoi file non lasciano mai il tuo telefono.</p>
+            </div>
+
+            <div class="section">
+                <h2>Servizi di terze parti</h2>
+                <p>L'app utilizza i seguenti servizi di terze parti, che potrebbero raccogliere informazioni come descritto nelle rispettive informative sulla privacy:</p>
+                <ul>
+                    <li><strong>Google AdMob</strong> &mdash; utilizzato per visualizzare annunci pubblicitari. AdMob potrebbe raccogliere identificatori del dispositivo e dati di utilizzo per mostrare annunci personalizzati o non personalizzati. <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy di Google</a></li>
+                    <li><strong>Google Play Aggiornamenti In-App</strong> &mdash; utilizzato per verificare e distribuire aggiornamenti dell'app. <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy di Google</a></li>
+                    <li><strong>Google Play Recensioni In-App</strong> &mdash; utilizzato per invitare gli utenti a valutare l'app. <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy di Google</a></li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Accesso ai file</h2>
+                <p>L'app richiede l'accesso allo spazio di archiviazione del dispositivo esclusivamente per leggere i file PDF selezionati e per salvare i file risultanti dalla divisione o unione. Non accediamo, leggiamo o carichiamo nessun altro file presente sul tuo dispositivo.</p>
+            </div>
+
+            <div class="section">
+                <h2>Sicurezza dei dati</h2>
+                <p>Poiché tutta l'elaborazione avviene localmente sul tuo dispositivo e nessun dato personale viene raccolto o trasmesso, non esiste rischio di violazione dei dati da parte nostra. Ti consigliamo di mantenere aggiornato il software del tuo dispositivo per una sicurezza ottimale.</p>
+            </div>
+
+            <div class="section">
+                <h2>Privacy dei minori</h2>
+                <p>La nostra app non raccoglie consapevolmente informazioni personali da bambini di età inferiore ai 13 anni. Poiché non raccogliamo alcun dato personale, non sono necessarie disposizioni speciali.</p>
+            </div>
+
+            <div class="section">
+                <h2>Modifiche a questa policy</h2>
+                <p>Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto. Eventuali modifiche saranno pubblicate su questa pagina con una data di entrata in vigore aggiornata. Ti invitiamo a consultare periodicamente questa pagina.</p>
+            </div>
+
+            <div class="section">
+                <h2>Contattaci</h2>
+                <p>Per qualsiasi domanda riguardante questa Informativa sulla Privacy, contattaci a:<br>
+                <a href="mailto:sardinialabs.dev@gmail.com">sardinialabs.dev@gmail.com</a></p>
+            </div>
+        </div>
+
+    </div>
+    <p class="date">Effective date / Data di entrata in vigore: February 12, 2026</p>
+</div>
+
+<script>
+    function switchLang(lang) {
+        document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+        document.getElementById(lang).classList.add('active');
+        document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+        document.querySelector(`[onclick="switchLang('${lang}')"]`).classList.add('active');
+    }
+</script>
+
+</body>
+</html>
